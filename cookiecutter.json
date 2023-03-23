@@ -6,5 +6,5 @@
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
     "python_interpreter": ["python3", "python"],
     "mapping_project": ["Yes", "No"],
-    "final_destination": "C:/Users"
+    "final_destination": ""
 }
