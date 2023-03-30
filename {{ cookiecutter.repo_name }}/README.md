@@ -7,6 +7,7 @@ Project Organization
 ------------
 
     ├── README.md          <- The top-level README for developers using this project.
+    ├── .gitignore         <- NEVER DELETE THIS FILE.
     ├── data
     │   ├── downloaded     <- Data from downloads.
     │   ├── interim        <- Intermediate data that has been transformed.
@@ -20,7 +21,7 @@ Project Organization
     │                         generated with `pip freeze > requirements.txt
     ├── .env               <- Environment variables                          
     │
-    ├── clean_dataset.py    <- Compilation and reformatting of data to create data files in /data/processed/
+    ├── clean_dataset.py   <- Compilation and reformatting of data to create data files in /data/processed/
     │                          
     └── analysis.py        <- Analyse data and create final data product based on files in /data/processed/
     
