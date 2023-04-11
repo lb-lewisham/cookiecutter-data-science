@@ -1,9 +1,5 @@
 # local package
 -e .
-pandas
-numpy
-matplotlib
-seaborn
 
 # external requirements
 click
@@ -20,9 +16,69 @@ python-dotenv>=0.5.1
 pathlib2
 {% endif %}
 
-{% if cookiecutter.mapping_project == "Yes" %}
+{% if cookiecutter.project_type == "mapping" %}
 geopandas
 geoviews
 folium
 plotly
+pandas
+numpy
+matplotlib
+seaborn
+requests
+bokeh
+
+{% elif cookiecutter.project_type == "torch_ml" %}
+huggingface
+transformers
+torch
+scikit-learn
+scipy
+pandas
+numpy
+matplotlib
+seaborn
+requests
+LightGBM
+bokeh
+opencv-python
+pillow
+
+{% elif cookiecutter.project_type == "tensorflow_ml" %}
+tensorflow<2.11
+cudatoolkit==11.2 
+cudnn==8.1.0
+keras
+huggingface
+transformers
+scikit-learn
+scipy
+pandas
+numpy
+matplotlib
+seaborn
+requests
+LightGBM
+bokeh
+opencv-python
+pillow
+
+{% elif cookiecutter.project_type == "general" %}
+pandas
+numpy
+matplotlib
+seaborn
+requests
+scrapy
+beautifulsoup4
+pyraphtory
+rampdemand
+pillow
+bokeh
+
+{% elif cookiecutter.project_type == "minimal" %}
+pandas
+numpy
+matplotlib
+
 {% endif %}

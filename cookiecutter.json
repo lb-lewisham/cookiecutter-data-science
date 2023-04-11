@@ -5,6 +5,6 @@
     "description": "A short description of the project.",
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
     "python_interpreter": ["python3", "python"],
-    "mapping_project": ["Yes", "No"],
+    "project_type": ["mapping", "general", "torch_ml", "tensorflow_ml", "general", "minimal"],
     "final_destination": ""
 }
