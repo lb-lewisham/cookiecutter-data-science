@@ -56,7 +56,6 @@ The directory structure of your new project looks like this:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-│
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
