@@ -6,5 +6,6 @@
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
     "python_interpreter": ["python3", "python"],
     "project_type": ["mapping", "general", "torch_ml", "tensorflow_ml", "general", "minimal"],
-    "final_destination": ""
+    "final_destination": "",
+    "add_boilerplate": ["Yes", "No"]
 }
