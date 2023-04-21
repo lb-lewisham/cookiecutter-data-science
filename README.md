@@ -27,7 +27,7 @@ $ conda install cookiecutter
 ------------
 To start a new project, `cd` into a directory where you want the new project and run
 
-    cookiecutter https://github.com/Ilkka-LBL/cookiecutter-data-science
+    cookiecutter https://github.com/lb-lewisham/cookiecutter-data-science.git
 
 This version of the `cookiecutter` data science template provides a few modifications to the original one. For one, the directory structure is simplified. Second, this template provides an option to choose from various different projects types (e.g. mapping, torch_ml, tensorflow_ml, general, and minimal), which will add packages to the `requirements.txt` file accordingly. This template also adds the option of including boilerplate code in the `clean_dataset.py` file in the form of paths to the different `data` and `models` folders. Finally, as Windows Command Prompt cannot handle UNC paths (although PowerShell can), the `final_destination` option allows the user to define a final path for the project manually. This requires a full path to be provided, after which the `post_gen_project.py` hook will run to move the project folder to the specified location. Leave the `final_destination` option empty if you do not wish to move the project. 
 
